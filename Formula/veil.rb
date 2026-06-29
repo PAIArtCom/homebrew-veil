@@ -9,30 +9,30 @@
 class Veil < Formula
   desc "Local de-identification proxy for AI coding agents"
   homepage "https://veil.paiart.com"
-  version "0.1.2"
+  version "0.1.3"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
       url "https://github.com/PAIArtCom/Veil/releases/download/v#{version}/veil-v#{version}-darwin-arm64.tar.gz"
-      sha256 "38ace1873c6cabe9ea4c8722c6af1cfa934a1e2efb0e9df2653bddd960c7a415"
+      sha256 "aa26b2796bafd970710fcda16dff1736e5319d5e4e2713bd3f5dc549e6836cfa"
     end
 
     on_intel do
       url "https://github.com/PAIArtCom/Veil/releases/download/v#{version}/veil-v#{version}-darwin-amd64.tar.gz"
-      sha256 "0b848b665d7862f60312ab3bad814d2be7a6ffc47d15c00f9d9ccb4c768555fb"
+      sha256 "8819895b17369e1ba7a55b1469e49eec7e14a73f767cbd3b9b0d1b8918a8146d"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/PAIArtCom/Veil/releases/download/v#{version}/veil-v#{version}-linux-arm64.tar.gz"
-      sha256 "dffd5bd282735feb81aded8fbd2de4b9e5b25b9e26f4aa8ce35dc6d1d30058ad"
+      sha256 "274cb95f66c2a447e40328a5281a1eb4e01fb5c3ce09f9354ff53eac5a992391"
     end
 
     on_intel do
       url "https://github.com/PAIArtCom/Veil/releases/download/v#{version}/veil-v#{version}-linux-amd64.tar.gz"
-      sha256 "06947a982ad1c09cb41d143eebafebb919aa36fc6dc16a8c079eb68f111c29f6"
+      sha256 "0efa95eecc2ceb017692477c70a2a31ce7e06d27343520bcd17b0dc7ef9cfdf4"
     end
   end
 
